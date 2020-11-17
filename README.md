@@ -4,7 +4,7 @@
 
 Exploit / PoC for [CVE-2018-16763](https://nvd.nist.gov/vuln/detail/CVE-2018-16763).
 
-[[PacketStorm](#)] [[WLB-xxx](xxx)]
+[[PacketStorm](https://packetstormsecurity.com/files/160080/Fuel-CMS-1.4-Remote-Code-Execution.html)] [[WLB-2020110119](https://cxsecurity.com/issue/WLB-2020110119)]
 
 ## Usage
 
