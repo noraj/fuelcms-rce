@@ -60,7 +60,7 @@ This is a better re-write of [EDB-ID-47138][EDB-ID-47138] ([Github](https://gith
 - cleaner & more customizable
 - using ruby (python2 is deprecated)
 
-This exploit was tested with Ruby 2.7.2, 3.0.2.
+This exploit was tested with Ruby 2.7.2, 3.0.2, 3.4.5.
 
 About [EDB-ID-47138][EDB-ID-47138]:
 
